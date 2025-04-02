@@ -70,10 +70,7 @@ def get_today_quote():
 hayman_quotes = [
     "I gave her the awkward white boy smile - Br. Lucas Miller",
     "Oh me, Oh my, or HAYMAN - Br. Lucas Miller",
-    "Preacher you’re casting stones. Well learn to duck - The Rev. Doug McClung",
-    "Pride didn't stop you from leaving so it shouldn’t stop you from coming back - The Rev. Doug McClung",
-    "They ain’t nobody more old time than I am. I give Tony Hutson a run for his money - Br. Micah Renfrow",
-    "You better thank God your kids go to a God fearing church- Rev. Doug McClung on Catholic Pedos",
+    
 ]
 
 @client.command(name="hayman")
