@@ -10,7 +10,7 @@
 
 # Overview
 
-This is a simple Discord bot that sends a daily devotional message to a designated channel. It is built using Python, Docker, and the discord.py library. The bot allows users to set a channel for automatic devotional messages and also provides a manual command to retrieve the day's devotional. This bot can be self-hosted on an Unraid server or any machine with Docker support.
+This is a simple Discord bot that sends a daily devotional message to a designated channel. It is built using Python, Docker, and the discord.py library. The bot allows users to set a channel for automatic devotional messages and also provides a manual command to retrieve the day's devotional. This bot can be self-hosted on an Unraid server or any machine with Docker support. I manually compiled all the quotes for each day of the year. I made this from a Classical Protestant perspective so you'll see anyone from St. Ephraim to a Thomas Watson and so forth.
 
 
 
