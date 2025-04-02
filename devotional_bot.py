@@ -66,18 +66,6 @@ def get_today_quote():
 
     return quote_data["Quote"], quote_data["Author"]
 
-# Easter egg quotes
-hayman_quotes = [
-    "I gave her the awkward white boy smile - Br. Lucas Miller",
-    "Oh me, Oh my, or HAYMAN - Br. Lucas Miller",
-    
-]
-
-@client.command(name="hayman")
-async def hayman(ctx):
-    random_quote = random.choice(hayman_quotes)
-    await ctx.send(random_quote)
-
 # Send the daily devotional
 async def send_daily_devotional():
     await client.wait_until_ready()
