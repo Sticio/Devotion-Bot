@@ -29,7 +29,7 @@ This is a simple Discord bot that sends a daily devotional message to a designat
 2. Run the bot with your token:
 
    ```
-   docker run -e DISCORD_TOKEN="your-token-here" sticio/evotional-bot:latest
+   docker run -e DISCORD_TOKEN="your-token-here" sticio/devotional-bot:latest
    ```
 
 
