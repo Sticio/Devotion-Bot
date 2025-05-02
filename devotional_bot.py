@@ -93,7 +93,7 @@ async def schedule_task():
     print(f"⏳ Checking time: {now.strftime('%Y-%m-%d %H:%M:%S %Z')}")
 
     if now.hour == 9 and now.minute == 0:
-        print("🚀 Sending daily devotional...")
+        print("Sending daily devotional...")
         await send_daily_devotional()
 
 @client.event
